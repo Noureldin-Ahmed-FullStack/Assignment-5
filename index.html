@@ -1,13 +1,15 @@
 <html>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
+
   <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/icofont.min.css">
   <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
-  <nav>
+  <!-- <nav>
     <div class="navHolder">
       <h1>
         <a href="index.html" class="logo">Mealify</a>
@@ -32,6 +34,58 @@
         <i class="fa-solid fa-moon"></i>
       </label>
       <input type="checkbox" name="" id="custom-checkbox">
+    </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <a href="index.html" class="logo px-5">Mealify</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end " id="navbarNav">
+        <!-- <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul> -->
+        <ul class="nav-links navbar-nav ms-auto me-5" id="navLinks">
+          <a href="#home" class="close-icon">
+          </a>
+          <li class="nav-item">
+            <a href="#home" class="H">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#chefs" class="C">Chefs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="G">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="Con">Contact</a>
+          </li>
+        </ul>
+        <label for="custom-checkbox">
+          <i class="fa-solid fa-moon"></i>
+        </label>
+        <input type="checkbox" name="" id="custom-checkbox">
+      </div>
     </div>
   </nav>
   <header id="home" class="home section-bg">
@@ -425,6 +479,7 @@
       </div>
     </div>
   </footer>
+  <script src="bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
