@@ -797,3 +797,9 @@ footer .quick-links ul li::before {
 @media all and (min-width:992px) and (max-width:1199px) {}
 
 @media all and (min-width:1200px) {}
+
+.fa-solid.fa-moon::before{
+    font-size: 30px;
+    padding-right: 60px;
+
+}
