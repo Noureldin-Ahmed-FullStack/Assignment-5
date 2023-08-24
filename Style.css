@@ -764,7 +764,7 @@ footer .quick-links ul li::before {
 
     .container picture {
         width: 50%;
-        background-color: var(--bg-color-RED);;
+       
     }
 
     .chefs-cards {
@@ -800,6 +800,7 @@ footer .quick-links ul li::before {
 
 .fa-solid.fa-moon::before{
     font-size: 30px;
-    padding-right: 60px;
-
+    margin: 0 30px;
+    cursor: pointer;
+    color: var(--bg-color-BlackText);
 }
